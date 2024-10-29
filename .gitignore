@@ -1,0 +1,76 @@
+# Maven target directory
+/target/
+
+# IntelliJ IDEA project files
+/.idea/
+*.iml
+*.iws
+/out/
+
+# Eclipse and STS project files
+/.classpath
+/.project
+/.settings/
+/.apt_generated/
+/.factorypath
+/.springBeans/
+
+# VS Code settings directory
+.vscode/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Compiled class files
+**/*.class
+
+# Log files
+**/*.log
+
+# Maven wrapper files
+.mvn/wrapper/*
+
+# Build artifacts
+*.jar
+*.war
+*.ear
+
+# OS specific files
+.DS_Store
+Thumbs.db
+._*
+
+# Test output files
+/test-output/
+
+# IDE specific metadata and cache files
+*.swp
+*.swo
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# Additional Eclipse specific files
+/.settings/
+.localhistory/
+.remote/
+.apt_generated/
+.factorypath
+
+# STS specific files
+.springBeans/
+
+# VS Code workspace and user settings
+.vscode/
+.vscode/*
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Other build output
+bin/
