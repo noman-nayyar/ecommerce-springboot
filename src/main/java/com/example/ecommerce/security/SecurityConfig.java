@@ -47,7 +47,8 @@ public class SecurityConfig {
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/api/register", "/api/register/admin", "/api/login").permitAll()
-                        .requestMatchers("/**").permitAll() // Allow all requests to static resources
+                        // Allow all requests to static resources
+                        // .requestMatchers("/**").permitAll()
                         .requestMatchers("/api/admin/**").hasRole("ADMIN")
                         .requestMatchers("/api/user/**").hasRole("CUSTOMER")
                         .anyRequest().authenticated()
